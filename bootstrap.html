@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <title>Bootstrap</title>
+    <style>
+        .navbar {
+            background-color: #B4C157;
+        }
+        .navbar-default .navbar-brand {
+            color: black;
+            font-weight: bold;
+        }
+        .navbar-default .navbar-nav>li>a {
+            color: white;
+        }
+        .col-xs-offset-3 {
+            background-color: #A9F5E1;
+        }
+        .col-xs-4 {
+            background-color: #A9F5E1;
+        }
+        .container-fluid {
+            text-align: center;
+        }
+
+        /*Why do we need to put navbar-default? what are the >s?*/
+    </style>    
+</head>
+
+<body>
+
+    <!-- Code goes here. -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Ubermelon</a>
+            </div>
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Shop</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Favorite Melons</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Profile</a></li>
+            </ul>
+
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-6 col-xs-offset-3">MIDDLE!</div>
+        </div>
+        <div class="row">
+            <div class="col-xs-4">
+                <b><span class="glyphicon glyphicon-star"></span> Award Winning
+                </b>
+            </div>
+            <div class="col-xs-4">
+                <b><span class="glyphicon glyphicon-globe"></span> Huge Selection</b>
+            </div>
+            <div class="col-xs-4">
+                <b><span class="glyphicon glyphicon-certificate"></span> Certified Sustainable</b>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 visible-lg-*">
+                <table class="table table-striped">
+                    <tr>
+                        <td>bla</td>
+                        <td>bla</td>
+                    </tr>
+                        
+                    <tr>
+                        <td>bla</td>
+                        <td>bla</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- You need this in order to use JS-based components in the 
+    further study. Leave this at the bottom and code above it. -->
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
